@@ -37,7 +37,6 @@ pip install google-generativeai
  -gemini-chatbot
     -gemi_api_plan.py
 ```
-
 2. Conseguimos nuestra clave API
 
     https://aistudio.google.com/app/apikey
@@ -47,6 +46,22 @@ pip install google-generativeai
     - Haz clic en el botón "Crear clave de API" (Create API key).
     - Es posible que te pida que inicies sesión con tu cuenta de Google y que crees un nuevo proyecto de Google Cloud si aún no tienes uno. Sigue los pasos que te indica.
     - Una vez creada, verás tu clave. ¡Cópiala y guárdala en un lugar seguro!
+
+3. Insertar la API KEY en gemi_api_plan.py
+
+    - Línea 11
+
+    ```python
+    genai.configure(api_key="REEMPLAZA_ESTO_CON_TU_API_KEY")
+    ```
+> [!CAUTION]
+> Introduce la clave dentro de las comillas
+
+### 🔹LANZA LA APLICACIÓN
+
+```powershell
+python gemi_api_plan.py
+```
 
 
 
