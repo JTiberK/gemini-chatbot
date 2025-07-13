@@ -3,23 +3,26 @@
 ### 🔹CREACION DEL ENTORNO VIRTUAL DE PYTHON
 
 > [!IMPORTANT]
-> Antes de nada vemos si estan instalados: python --version y pip --version
-
+> Checkear:
+```powershell
+python --version
+pip --version
+```
 ---
 
-> [!EL_DILEMA]
+1. Crea el directorio .venv
 
 ```powershell
 python -m venv venv
 ```
-1. Crea el directorio .venv
-
 ---
+
+2. Activa el entorno virtual
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
-2. Activa el entorno virtual
+
 
 ---
 
