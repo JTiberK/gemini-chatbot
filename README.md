@@ -7,7 +7,7 @@
 
 ---
 
-> [!El dilema]
+> [!EL_DILEMA]
 
 ```powershell
 python -m venv venv
