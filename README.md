@@ -1,5 +1,7 @@
 <h1 align=center> CHATBOT CON API DE GEMINI</h1>
 
+Escrito por JTiberK el 14/07/2025
+
 ### 🔹CREACION DEL ENTORNO VIRTUAL DE PYTHON
 
 > [!IMPORTANT]
@@ -47,7 +49,7 @@ pip install google-generativeai
     - Es posible que te pida que inicies sesión con tu cuenta de Google y que crees un nuevo proyecto de Google Cloud si aún no tienes uno. Sigue los pasos que te indica.
     - Una vez creada, verás tu clave. ¡Cópiala y guárdala en un lugar seguro!
 
-3. Insertar la API KEY en gemi_api_plan.py
+3. Insertar la API KEY en `gemi_api_plan.py`
 
     - Línea 11
 
@@ -62,6 +64,5 @@ pip install google-generativeai
 ```powershell
 python gemi_api_plan.py
 ```
-
-
+Actualizado el 14/07/2025
 
